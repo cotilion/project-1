@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./style/index.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Monoton&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <script
+      src="https://kit.fontawesome.com/9813c33b87.js"
+      crossorigin="anonymous"
+    ></script> <!--esta en el head por que en la explicacion de la pagina de los icons recomiendan ponerla aqui-->
+    
+    <title>The Tavern</title>
+  </head>
+  <body>  
+    <header> <!--inicio del header-->
+      <section class="header-section-1">
+        <div>
+          <h1>The Tavern</h1>
+        </div>
+        <div class="header-div-1">
+          <div class="mail-1 " >
+            <button type="button" class="button "><i class="fa-solid fa-envelope fa-xl hover-letras"></i></button>
+          </div>
+          
+          <div class="header-user-image-div">
+            <button type="button" id="togglee" class="button hover-letras"><img src="./images/user-image.jpg" class="image-usuario"/>Loki</button>
+            <ul id="usurio-desplegable" class="usuario-desplegable-ul usurio-desplegable-ul-toggle-1 usurio-desplegable-ul-toggle-2">
+              <li><a href="" class="hover-letras"><i class="fa-solid fa-address-card profile "></i> Profile</a></li>
+              <li><a href="" class="hover-letras"><i class="fa-solid fa-gear "></i> Settings</a></li>
+              <li><a href="" class="hover-letras"><i class="fa-solid fa-right-from-bracket "></i> Log out</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <nav class="header-nav">
+        <ul>
+          <li>
+            <button type="button" id="toggle" class="button color-button hover-letras"><i class="fa-solid fa-glasses"></i></i> Read options</button>
+            <ul id="menu-desplegable" class="menu-desplegable-ul menu-desplegable-ul-toggle-1 menu-desplegable-ul-toggle-2 ">
+              <li class="menu-desplegable-li">
+                <a href="" class="hover-letras"><i class="fa-solid fa-trophy "></i>   Top 100</a>
+              </li>
+              <li class="menu-desplegable-li">
+                <a href="" class="hover-letras"><i class="fa-solid fa-star "></i>  Best rating</a>
+              </li>
+              <li class="menu-desplegable-li">
+                <a href="" class="hover-letras"><i class="fa-solid fa-clock "></i>  Updates</a>
+              </li>
+              <li class="menu-desplegable-li">
+                <a href="" class="hover-letras"><i class="fa-solid fa-shuffle "></i> Random</a>
+              </li>
+            </ul>
+          
+          <li>
+            <a href="" class="hover-letras"><i class="fa-solid fa-pen-fancy "></i> Write</a>
+          </li>
+          <li>
+            <a href="" class="hover-letras"><i class="fa-solid fa-comments  "></i> Forums</a>
+          </li>
+        </ul>
+        <div class="header-search-div">
+          <i class="fa-solid fa-magnifying-glass spyglass"></i>
+          <form>
+            <label for="search"></label>
+            <input type="text" name="search" id="search" placeholder="Search" />
+          </form>
+        </div>
+      </nav>
+    </header> <!--fin del header-->
+    <main> <!--inicio del main-->     
+      <section class="main-section-1" >
+        <div class="div-1-noticias">
+          <div id="thing" class="noticias noticias-1" >
+           <h2>Winners of May</h2>
+           <p>The 3 winners of the May ciberpunk contest</p>
+           <a href="" class="list-rules hover-bri">list</a>
+          </div>
+          <div id="thing2"   class="noticias-2 noticias" >
+            <h2>Roman novel contest</h2>
+            <p>
+            Time for june contest this time the story need to be set up in the
+            Roman empire
+           </p>
+            <a href="" class="list-rules hover-bri">Rules</a>
+          </div>
+        </div>
+        <div >
+          <ul class="list-noticias">
+            <li> <button id="tog-2" class="botton-noticias"><i class="fa-solid fa-square "></i></button></li>
+          </ul>
+        </div>
+      </section>
+      <section class="carousel-section">
+        <div>
+          <h2>Top 5</h2>
+        </div>
+        <div class="carousel js-flickity"> 
+          <div class="carousel-cell content_img"> <!--content_img es de el titulo de la novela-->
+            <a href=""><img src="./images/i-will-survive.jpg"  alt="I-will-survive"  /></a>
+            <div>I Will Survive</div>
+          </div>
+          <div class="carousel-cell content_img">
+            <a href=""><img src="./images/30-days-of-to-love.jpg"  alt="30-days-of-to-love"  /></a>
+            <div>30 Days To Love</div>
+          </div>
+          <div class="carousel-cell content_img">
+            <a href=""><img src="./images/lost-in-japan.jpg"  alt="lost-in-japan"  /></a>
+            <div>Lost In Japan</div>
+          </div>
+          <div class="carousel-cell content_img">
+            <a href=""><img src="./images/100-years-war.jpg"  alt="100-years-war"  /></a>
+            <div>100 Years War</div>
+          </div>
+          <div class="carousel-cell content_img">
+            <a href=""><img src="./images/betwen-2-worlds.jpg"  alt="betwen-2-worlds" /></a>
+            <div>Between 2 Wordls</div>
+         </div>
+        </div>
+      </section>
+      <section class="main-section-2">
+        <div class="main-section-2-left">
+          <h2>Recommended for you</h2>
+          <div class="best-rating-div best-rating-div-border">
+            <picture class="best-rating-img-container">
+              <a href=""><img src="./images/same-size/adventures-clyde.jpg" class="best-rating-img" /></a>
+            </picture>
+            <div>
+              <a href="" class="hover-letras"><p>Adventures Of Clyde</p></a>
+              <a href="" class="hover-letras"><p>chap-120</p></a>
+            </div>
+          </div>
+          
+          <div class="best-rating-div">
+            <picture class="best-rating-img-container">
+              <a href=""><img src="./images/same-size/life-in-mars.jpg" class="best-rating-img" /></a>
+            </picture>
+            <div>
+              <a href="" class="hover-letras"><p>Life In Mars</p></a>
+              <a href="" class="hover-letras"><p>chap-20</p></a>
+            </div>
+          </div>
+          
+          <div class="best-rating-div best-rating-div-border">
+            <picture class="best-rating-img-container">
+              <a href=""><img src="./images/same-size/crazy-adventures.jpg" class="best-rating-img"/></a>
+            </picture>
+            <div>
+              <a href="" class="hover-letras"><p>Jacobs Crazy Adventure</p></a>
+              <a href="" class="hover-letras"><p>chap-200</p></a>
+            </div>
+          </div>
+        </div>
+        <div class="main-section-2-right">
+          <h2>Best Rating</h2>
+          <div class="best-rating-div best-rating-div-border">
+            <picture class="best-rating-img-container">
+              <a href=""><img class="best-rating-img " src="./images/same-size/i-will.jpg"/></a>
+            </picture>
+            <div>
+              <a href="" class="hover-letras"><p>I Will Survive</p></a>
+              <i class="fa-solid fa-star fa-starr"></i><i class="fa-solid fa-star fa-starr"></i
+              ><i class="fa-solid fa-star fa-starr"></i><i class="fa-solid fa-star fa-starr"></i>
+            </div>
+          </div>
+            
+          <div class="best-rating-div">
+            <picture class="best-rating-img-container">
+              <a href="" ><img class="best-rating-img" src="./images/same-size/path.jpg"/></a>
+            </picture>
+            <div>
+              <a href="" class="hover-letras"><p>Path To Ascension</p></a>
+              <i class="fa-solid fa-star fa-starr"></i><i class="fa-solid fa-star fa-starr"></i
+              ><i class="fa-solid fa-star fa-starr"></i
+              ><i class="fa-solid fa-star-half"></i>
+            </div>
+          </div>
+          
+          <div class="best-rating-div best-rating-div-border">
+            <picture class="best-rating-img-container">
+              <a href=""><img class="best-rating-img" src="./images/same-size/betwen-2-worlds.jpg"/></a>
+            </picture>
+            <div>
+              <a href="" class="hover-letras"><p>Betwen 2 worlds</p></a>
+              <i class="fa-solid fa-star fa-starr"></i><i class="fa-solid fa-star fa-starr"></i
+              ><i class="fa-solid fa-star-half"></i>
+            </div>
+          
+          </div>
+        </div>
+      </section>
+      <section class="main-section-3">
+        
+        <h2>Winners of May</h2>
+        
+        <div class="winner-of-contest">
+          <div class="div-winner-contest">
+            <h2 class="winner-of-may-number">1</h2>
+            <picture class="img-winner-contest-container">
+              <a href=""><img src="./images/ciber-samurai.jpg" class="img-winner-contest"/></a>
+            </picture>
+            <a href="" class="hover-letras"><p class="winner-contest-title">Ciber Samurai</p></a>
+          </div>
+          <div class="div-winner-contest">
+            <h2 class="winner-of-may-number">2</h2>
+            <picture class="img-winner-contest-container">
+              <a href=""><img class="img-winner-contest" src="./images/city-z.jpg"/></a>
+            </picture>
+            <a href="" class="hover-letras"><p class="winner-contest-title">City Z</p></a>
+          </div>
+          <div class="div-winner-contest">
+            <h2 class="winner-of-may-number">3</h2>
+            <picture class="img-winner-contest-container">
+              <a href=""><img class="img-winner-contest" src="./images/post-apocaliptic-life.jpg"/></a>
+            </picture>
+            <a href="" class="hover-letras"><p class="winner-contest-title">Post Apocaliptic Life</p></a>
+          </div>
+        </div>
+        
+      </section>
+      <div class="background-rigth"></div>
+    </main> <!--fin del main-->
+    <footer> <!--inicio del footer-->
+      <section class="footer-grid-container">
+        <div class="div-footer-1">
+          <ul>
+            <li><a href="" class="hover-letras">Need help</a></li>
+            <li><a href="" class="hover-letras">Contact us</a></li>
+            <li><a href="" class="hover-letras">Advertising</a></li>
+          </ul>
+       </div>
+       <div class="div-footer-2">
+          <div class="div-footer-2-theme">
+           <h2 class="footer-h2">Theme</h2>
+           <button type="button" id="togleee" class="ligth-theme ">
+              <i id="theme-1" class="fa-solid fa-sun fa-2xl sun  ligth-theme-toggle-1 ligth-theme-toggle-2"></i>
+              <i id="theme-2" class="fa-solid fa-moon fa-2xl moon  ligth-theme-toggle-2"></i>
+           </button>
+           
+          </div>
+          <div class="div-footer-2-socials">
+           
+            <ul>
+             <li>
+                <a href="" class="hover-letras"><i class="fa-brands fa-facebook-square fa-xl"></i></a>
+             </li>
+              <li>
+               <a href="" class="hover-letras"><i class="fa-brands fa-twitter-square fa-xl"></i></a>
+              </li>
+           </ul>
+         </div>
+       </div>
+      </section>
+    </footer> <!-- fin del footer-->
+    <script src="./script/flickity.pkgd.min.js"></script><!--este es el script del carousel-->
+    <script src="./script/toogle.js"></script><!--este es el escript toogle de noticias-->
+    
+  </body>
+</html>
