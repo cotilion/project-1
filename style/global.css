@@ -253,6 +253,9 @@ main {
   background-color: var(--azul-ligthmode-div);
   padding: 0px 1.25rem 0.625rem 1.25rem;
 }
+.main-section-3 > h2 {
+  padding-top: 1rem;
+}
 .carousel-section {
   background-color: var(--azul-ligthmode-div);
   padding-bottom: 2.5rem;
@@ -526,6 +529,10 @@ button {
 
 @media (max-width: 765px) {
   /*header*/
+  header {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
   .header-section-1 {
     display: flex;
     justify-content: space-between;
@@ -567,7 +574,16 @@ button {
   main {
     margin: 0px 5% 0px 5%;
   }
-
+  .main-section-2-left {
+    margin-left: 0px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .main-section-2-right {
+    margin-right: 0px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .best-rating-div {
     display: flex;
     padding: 0.313rem 0px;
