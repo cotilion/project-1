@@ -268,7 +268,7 @@ main {
 }
 
 /****hover of carousel*****/
-/* Parent Container */
+
 .content_img {
   position: relative;
   width: 12.5rem;
@@ -276,7 +276,6 @@ main {
   margin-right: 0.625rem;
 }
 
-/* Child Text Container */
 .content_img div {
   position: absolute;
   bottom: 0;
