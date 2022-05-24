@@ -354,7 +354,7 @@ body {
   }
 }
 
-/* buttons, no circle */
+/* buttons */
 .flickity-prev-next-button {
   width: 3.75rem;
   height: 3.75rem;
@@ -365,21 +365,21 @@ body {
   background: transparent;
   opacity: 1;
 }
-/* arrow color */
+/* color de flechas */
 .flickity-prev-next-button .arrow {
   fill: var(--orange);
 }
 .flickity-prev-next-button.no-svg {
   color: var(--orange);
 }
-/* closer to edge */
+/* cerca a bordes */
 .flickity-prev-next-button.previous {
   left: 0;
 }
 .flickity-prev-next-button.next {
   right: 0;
 }
-/* hide disabled button */
+/* ocultar disabled boton */
 .flickity-prev-next-button:disabled {
   display: none;
 }
